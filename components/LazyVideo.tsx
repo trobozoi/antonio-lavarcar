@@ -36,9 +36,8 @@ export default function LazyVideo({ name, className = "", active = true, preload
 
   const shouldLoad = (near || eager) && (active || preloadInactive);
 
-  useEffect(() => {
-    if (shouldLoad && !loaded) setLoaded(true);
-  }, [shouldLoad, loaded]);
+  // uma vez carregado, permanece carregado (ajuste de estado durante o render)
+  if (shouldLoad && !loaded) setLoaded(true);
 
   // as <source> só existem depois do render com loaded=true
   useEffect(() => {

@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Manrope } from "next/font/google";
 import { business, fullAddress } from "@/data/site";
 import SmoothScroll from "@/components/SmoothScroll";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -85,6 +86,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <SmoothScroll />
         {children}
         <div className="grain" aria-hidden="true" />
+        <SpeedInsights />
       </body>
     </html>
   );

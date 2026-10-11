@@ -1,6 +1,8 @@
 # antonio-lavarcar
 
-Site institucional de estética automotiva (preto e dourado). Next.js 15 (App Router) + TypeScript + Tailwind 4, GSAP (ScrollTrigger, SplitText, `@gsap/react`) e Lenis.
+**Site no ar:** https://aurum-estetica-gray.vercel.app/
+
+Site institucional de estética automotiva (preto e dourado). Next.js 16 (App Router) + TypeScript + Tailwind 4, GSAP (ScrollTrigger, SplitText, `@gsap/react`) e Lenis.
 
 ## Rodar
 
@@ -32,6 +34,6 @@ Todos os dados ficam em `data/site.ts`. Itens marcados com `TODO` são placehold
 
 ## Deploy
 
-```bash
-npx vercel --prod
-```
+Publicado na Vercel: https://aurum-estetica-gray.vercel.app/
+
+O repositório está conectado ao projeto na Vercel: cada push na `main` publica em produção, e as demais branches geram um link de prévia.

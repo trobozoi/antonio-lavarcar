@@ -4,7 +4,7 @@ export const business = {
   name: "Aurum", // TODO: nome real do lava-jato
   fullName: "Aurum Estética Automotiva", // TODO
   tagline: "Estética automotiva de alto padrão",
-  url: "https://aurum-estetica.vercel.app", // TODO: domínio definitivo
+  url: "https://aurum-estetica-gray.vercel.app", // TODO: domínio definitivo
   whatsapp: "5511999999999", // TODO: número real com DDI+DDD
   whatsappDisplay: "(11) 99999-9999", // TODO
   instagram: "aurum.estetica", // TODO: @ real
